@@ -22,7 +22,7 @@ export const projects = [
     description:
       "Airbnb website clone which has custom date picker with animtions, Map functionality, etc.",
     image: "/assets/airbnb.png",
-    link: "https://github.com/ujenbasi5173/airbnb-clone",
+    link: "https://github.com/ujen5173/airbnb-clone",
     live: "https://airbnb-clone-zeta-drab.vercel.app/",
     techStack: [
       "NEXTJS",
@@ -39,7 +39,7 @@ export const projects = [
     description: "A simple pinterest clone using MERN stack.",
     image: "/assets/pininterest.png",
     live: null,
-    link: "https://github.com/ujenbasi5173/pinme",
+    link: "https://github.com/ujen5173/pinme",
     techStack: ["REACTJS", "MONGODB", "EXPRESSJS", "CLOUDINARY", "REST API"],
   },
   {
@@ -49,7 +49,7 @@ export const projects = [
     description:
       "This is the first version of my portfolio website. I wanted to keep it basic and simple. Animations are done using framer-motion library",
     image: "/assets/portfolio.png",
-    link: "https://github.com/ujenbasi5173/portfolio",
+    link: "https://github.com/ujen5173/portfolio",
     techStack: ["REACT", "FRAMER-MOTION", "TAILWINDCSS"],
   },
 ];
