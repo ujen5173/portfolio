@@ -71,7 +71,7 @@ const ProjectCard = ({ project, delayStarting = 0.3 }) => {
         <div className="flex gap-3 items-center mt-6">
           {project.live && (
             <button className="px-3 py-2 rounded-full" title="Live">
-              <a rel="noreferrer" target="_blank" href={project.link}>
+              <a rel="noreferrer" target="_blank" href={project.live}>
                 <i className="uil uil-external-link-alt text-2xl text-white hover:text-primary transition duration-200 " />
               </a>
             </button>
