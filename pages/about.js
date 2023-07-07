@@ -1,6 +1,6 @@
+import { motion } from "framer-motion";
 import Head from "next/head";
 import { GetInTouch } from "../components/Home";
-import { motion } from "framer-motion";
 
 const about = () => {
   return (
@@ -118,7 +118,17 @@ const about = () => {
             <li className="text-gray-100 text-xl mb-4">
               <i className="uil uil-angle-right-b mr-1" />
 
+              <span className="text-gray-200 font-medium">Postgresql</span>
+            </li>
+            <li className="text-gray-100 text-xl mb-4">
+              <i className="uil uil-angle-right-b mr-1" />
+
               <span className="text-gray-200 font-medium">Graphql</span>
+            </li>
+            <li className="text-gray-100 text-xl mb-4">
+              <i className="uil uil-angle-right-b mr-1" />
+
+              <span className="text-gray-200 font-medium">trpc / T3-stack</span>
             </li>
           </ul>
         </div>

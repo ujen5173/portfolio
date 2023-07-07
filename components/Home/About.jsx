@@ -1,6 +1,6 @@
 import { motion, useAnimation } from "framer-motion";
-import { useInView } from "react-intersection-observer";
 import { useEffect } from "react";
+import { useInView } from "react-intersection-observer";
 
 const About = () => {
   const control = useAnimation();
@@ -56,29 +56,43 @@ const About = () => {
         <ul className="tech-grid">
           <li className="text-gray-100 text-xl mb-4">
             <i className="uil uil-angle-right-b mr-1" />
-            <span className="text-gray-100 text-xl mb-4">
-              JavaScript (ES6+)
-            </span>
+
+            <span className="text-gray-200 font-medium">Javascript (ES6+)</span>
           </li>
           <li className="text-gray-100 text-xl mb-4">
             <i className="uil uil-angle-right-b mr-1" />
-            <span className="text-gray-100 text-xl mb-4">Next.js</span>
+
+            <span className="text-gray-200 font-medium">React</span>
           </li>
           <li className="text-gray-100 text-xl mb-4">
             <i className="uil uil-angle-right-b mr-1" />
-            <span className="text-gray-100 text-xl mb-4">Express.js</span>
+
+            <span className="text-gray-200 font-medium">Nextjs</span>
           </li>
           <li className="text-gray-100 text-xl mb-4">
             <i className="uil uil-angle-right-b mr-1" />
-            <span className="text-gray-100 text-xl mb-4">Mongodb</span>
+
+            <span className="text-gray-200 font-medium">Nodejs</span>
           </li>
           <li className="text-gray-100 text-xl mb-4">
             <i className="uil uil-angle-right-b mr-1" />
-            <span className="text-gray-100 text-xl mb-4">Graphql</span>
+
+            <span className="text-gray-200 font-medium">Mongodb</span>
           </li>
           <li className="text-gray-100 text-xl mb-4">
             <i className="uil uil-angle-right-b mr-1" />
-            <span className="text-gray-100 text-xl mb-4">Tailwind css</span>
+
+            <span className="text-gray-200 font-medium">Postgresql</span>
+          </li>
+          <li className="text-gray-100 text-xl mb-4">
+            <i className="uil uil-angle-right-b mr-1" />
+
+            <span className="text-gray-200 font-medium">Graphql</span>
+          </li>
+          <li className="text-gray-100 text-xl mb-4">
+            <i className="uil uil-angle-right-b mr-1" />
+
+            <span className="text-gray-200 font-medium">trpc / T3-stack</span>
           </li>
         </ul>
       </motion.div>

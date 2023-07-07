@@ -24,24 +24,6 @@ const Footer = () => {
               <i className="uil uil-linkedin text-2xl"></i>
             </a>
           </button>
-          <button className="text-white">
-            <a
-              target="_blank"
-              rel="noopener noreferrer"
-              href="https://www.facebook.com/ujen.basi.54/"
-            >
-              <i className="uil uil-facebook text-2xl"></i>
-            </a>
-          </button>
-          <button className="text-white">
-            <a
-              target="_blank"
-              rel="noopener noreferrer"
-              href="https://www.instagram.com/ujen_basi/?hl=en"
-            >
-              <i className="uil uil-instagram text-2xl"></i>
-            </a>
-          </button>
         </ul>
       </div>
     </footer>
