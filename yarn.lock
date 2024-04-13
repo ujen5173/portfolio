@@ -211,21 +211,19 @@
     just-debounce-it "^3.2.0"
     nanoevents "^9.0.0"
 
-"@studio-freight/lenis@^1.0.40":
+"@studio-freight/lenis@^1.0.35-dev.0":
   version "1.0.42"
   resolved "https://registry.yarnpkg.com/@studio-freight/lenis/-/lenis-1.0.42.tgz#031402beee5eede12649beb9a912abd1aa98f96a"
   integrity sha512-HJAGf2DeM+BTvKzHv752z6Z7zy6bA643nZM7W88Ft9tnw2GsJSp6iJ+3cekjyMIWH+cloL2U9X82dKXgdU8kPg==
 
-"@studio-freight/react-lenis@^0.0.47":
-  version "0.0.47"
-  resolved "https://registry.yarnpkg.com/@studio-freight/react-lenis/-/react-lenis-0.0.47.tgz#c83fd5046c36889b8e8306170a5bc7b07fa3a55c"
-  integrity sha512-h+IAqiyiNo8mRo/CA3/sHCqX2IV0tTLyzZRWsdRaLPtM2aBaRqK0+ISYWTUmktQfcf3qvp4hsn0Oeyt9uXwLTQ==
+"@studio-freight/react-lenis@^0.0.44":
+  version "0.0.44"
+  resolved "https://registry.yarnpkg.com/@studio-freight/react-lenis/-/react-lenis-0.0.44.tgz#796a103bfabc1445a1e4df2bd600a34fff3ac4d9"
+  integrity sha512-SUEgsRGXUWftXkW8Zzw83TiJVrKk5gEdF/Wj5H7H09MIhczV0M9CyY8efK1UoHaSo0QjhqrjgUscddwooMGC9g==
   dependencies:
     "@studio-freight/hamo" "^0.6.28"
-    "@studio-freight/lenis" "^1.0.40"
-    "@types/react" "^18.0.0"
+    "@studio-freight/lenis" "^1.0.35-dev.0"
     clsx "^2.0.0"
-    react "^18.0.0"
     zustand "^4.4.7"
 
 "@studio-freight/tempus@^0.0.38":
@@ -279,14 +277,6 @@
   version "18.2.77"
   resolved "https://registry.yarnpkg.com/@types/react/-/react-18.2.77.tgz#af2f857b6a6dfb6ca89ec102ebc147b1f1616880"
   integrity sha512-CUT9KUUF+HytDM7WiXKLF9qUSg4tGImwy4FXTlfEDPEkkNUzJ7rVFolYweJ9fS1ljoIaP7M7Rdjc5eUm/Yu5AA==
-  dependencies:
-    "@types/prop-types" "*"
-    csstype "^3.0.2"
-
-"@types/react@^18.0.0":
-  version "18.2.78"
-  resolved "https://registry.yarnpkg.com/@types/react/-/react-18.2.78.tgz#94aec453d0ccca909998a2b4b2fd78af15a7d2fe"
-  integrity sha512-qOwdPnnitQY4xKlKayt42q5W5UQrSHjgoXNVEtxeqdITJ99k4VXJOP3vt8Rkm9HmgJpH50UNU+rlqfkfWOqp0A==
   dependencies:
     "@types/prop-types" "*"
     csstype "^3.0.2"
@@ -2302,7 +2292,7 @@ react-wrap-balancer@^1.1.0:
   resolved "https://registry.yarnpkg.com/react-wrap-balancer/-/react-wrap-balancer-1.1.0.tgz#3d246573413b936b799f29a1549cd217b948234c"
   integrity sha512-EhF3jOZm5Fjx+Cx41e423qOv2c2aOvXAtym2OHqrGeMUnwERIyNsRBgnfT3plB170JmuYvts8K2KSPEIerKr5A==
 
-react@^18, react@^18.0.0:
+react@^18:
   version "18.2.0"
   resolved "https://registry.yarnpkg.com/react/-/react-18.2.0.tgz#555bd98592883255fa00de14f1151a917b5d77d5"
   integrity sha512-/3IjMdb2L9QbBdWiW5e3P2/npwMBaU9mHCSCUzNln0ZCYbcfTsGbTJrU/kGemdH2IWmB2ioZ+zkxtmq6g09fGQ==

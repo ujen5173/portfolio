@@ -1,12 +1,40 @@
 import { inter } from "@/configs/font";
-import type { Metadata } from "next";
+import { siteConfig } from "@/configs/site";
+import type { Metadata, Viewport } from "next";
+import { SmoothScrollProvider } from "../providers/smooth-scroll-provider";
 import CursorTracker from "./_components/CursorTracker";
-import { SmoothScrollProvider } from "./_providers/smooth-scroll-provider";
 import "./globals.css";
 
+export const viewport: Viewport = {
+  width: "device-width",
+  initialScale: 1,
+  minimumScale: 1,
+  maximumScale: 1,
+  themeColor: [{ media: "(prefers-color-scheme: dark)", color: "black" }],
+};
+
 export const metadata: Metadata = {
-  title: "ujen.dev - Full-stack developer",
-  description: "Build using Next.js",
+  metadataBase: new URL("https://ujenbasi.vercel.app/"),
+  title: {
+    default: siteConfig.name,
+    template: `%s - ${siteConfig.name}`,
+  },
+  description: siteConfig.description,
+  authors: [
+    {
+      name: siteConfig.author,
+      url: siteConfig.url,
+    },
+  ],
+  creator: siteConfig.author,
+  keywords: siteConfig.keywords,
+  robots: {
+    index: true,
+    follow: true,
+  },
+  icons: {
+    icon: "/favicon.ico",
+  },
 };
 
 export default function RootLayout({
