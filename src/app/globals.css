@@ -1,0 +1,81 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+
+.list-item {
+  position: relative;
+}
+
+.list-underline {
+  position: absolute;
+  transition: width 250ms ease;
+  bottom: 0px;
+  right: 0.5rem;
+  width: 0;
+  border-radius: 9999px;
+  height: 4px;
+  background: #0284c7;
+}
+
+.list-item:hover > .list-underline {
+  width: 60%;
+}
+
+.list-underline.active {
+  width: 60%;
+}
+
+.list-dot {
+  transform: translateX(-7px);
+  width: 4px;
+  height: 4px;
+  border-radius: 100%;
+  background: #0284c7;
+}
+
+.available-dot {
+  display: block;
+  width: 7px;
+  height: 7px;
+  border-radius: 100%;
+  background: #16a34a;
+  animation: animate-dot 1000ms infinite alternate-reverse;
+}
+
+@keyframes animate-dot {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 100%;
+  }
+}
+
+.custom-cursor {
+  background: radial-gradient(
+    600px at 0 0,
+    rgba(29, 78, 216, 0.15),
+    transparent 80%
+  );
+}
