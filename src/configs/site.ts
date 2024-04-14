@@ -1,4 +1,4 @@
-import { NavItem } from "@/app/@types";
+import { NavItem } from "@/app/_types";
 
 export const links = {
   social: {
