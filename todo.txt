@@ -1,0 +1,5 @@
+- animations 
+- seo
+- projects ko image
+- projects ko description haru
+- google calender / cal.com integrate

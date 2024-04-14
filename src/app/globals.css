@@ -79,3 +79,7 @@
     transparent 80%
   );
 }
+
+.icon-wrapper-container:hover > .icon-wrapper {
+  background: #1e293b;
+}

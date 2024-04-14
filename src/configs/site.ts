@@ -1,3 +1,35 @@
+import { NavItem } from "@/app/@types";
+
+export const links = {
+  social: {
+    github: "https://github.com/ujen5173",
+    twitter: "https://twitter.com/ujen5173",
+    linkedin: "https://www.linkedin.com/in/ujen-basi-167a4522a",
+  },
+  mail: "ujenbasi1122@gmail.com",
+  openGraphImage: "https://saasyland.com/images/opengraph-image.png",
+  manifestFile: "https://saasyland.com/site.webmanifest",
+};
+
+export const contact = {
+  github: {
+    href: links.social.github,
+    username: "ujen5173",
+  },
+  linkedin: {
+    href: links.social.linkedin,
+    username: "ujen-basi-167a4522a",
+  },
+  twitter: {
+    href: links.social.twitter,
+    username: "ujen5173",
+  },
+  mail: {
+    href: links.social.github,
+    username: "ujenbasi1122@gmail.com",
+  },
+};
+
 export const siteConfig = {
   name: "Ujen basi",
   description:
@@ -14,4 +46,14 @@ export const siteConfig = {
     "Full-stack developer",
     "Web developer",
   ],
+  navItems: [
+    { title: "Work", isExternal: false, href: "/work" },
+    { title: "About", isExternal: false, href: "/about" },
+    { title: "Contact", isExternal: false, href: "/contact" },
+    {
+      title: "Resume",
+      isExternal: true,
+      href: "https://drive.google.com/file/d/1XqrKaLYpAV5kck1qEEOYlLBA8v9qZY8n/view?usp=sharing",
+    },
+  ] satisfies NavItem[],
 };

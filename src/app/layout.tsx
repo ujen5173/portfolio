@@ -1,6 +1,7 @@
 import { inter } from "@/configs/font";
 import { siteConfig } from "@/configs/site";
 import type { Metadata, Viewport } from "next";
+import { Toaster } from "sonner";
 import { SmoothScrollProvider } from "../providers/smooth-scroll-provider";
 import CursorTracker from "./_components/CursorTracker";
 import "./globals.css";
@@ -16,8 +17,24 @@ export const viewport: Viewport = {
 export const metadata: Metadata = {
   metadataBase: new URL("https://ujenbasi.vercel.app/"),
   title: {
-    default: siteConfig.name,
+    default: `${siteConfig.name} - Full stack developer`,
     template: `%s - ${siteConfig.name}`,
+  },
+  openGraph: {
+    type: "website",
+    locale: "en_US",
+    url: siteConfig.url,
+    siteName: siteConfig.name,
+    title: siteConfig.name,
+    description: siteConfig.description,
+    images: [
+      {
+        url: `${siteConfig.url}/og-image.png`,
+        width: 1200,
+        height: 630,
+        alt: "Open Graph Image",
+      },
+    ],
   },
   description: siteConfig.description,
   authors: [
@@ -49,6 +66,7 @@ export default function RootLayout({
           <CursorTracker />
           {children}
         </SmoothScrollProvider>
+        <Toaster />
       </body>
     </html>
   );
