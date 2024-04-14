@@ -54,12 +54,10 @@ export const metadata: Metadata = {
     icon: "/favicon.ico",
   },
 };
-
-export default function RootLayout({
-  children,
-}: {
+interface RootLayoutProps {
   children: React.ReactNode;
-}) {
+}
+export default function RootLayout({ children }: RootLayoutProps): JSX.Element {
   return (
     <html lang="en">
       <body className={`bg-slate-900 ${inter.className}`}>
