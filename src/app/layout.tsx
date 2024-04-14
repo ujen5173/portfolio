@@ -68,6 +68,11 @@ export default function RootLayout({
         </SmoothScrollProvider>
         <Toaster />
       </body>
+      <script
+        defer
+        data-domain="ujenbasi.vercel.app"
+        src="https://plausible.io/js/script.js"
+      ></script>
     </html>
   );
 }
