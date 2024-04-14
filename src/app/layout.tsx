@@ -1,6 +1,7 @@
 import { inter } from "@/configs/font";
 import { siteConfig } from "@/configs/site";
 import type { Metadata, Viewport } from "next";
+import React from "react";
 import { Toaster } from "sonner";
 import { SmoothScrollProvider } from "../providers/smooth-scroll-provider";
 import CursorTracker from "./_components/CursorTracker";
@@ -56,9 +57,9 @@ export const metadata: Metadata = {
 
 export default function RootLayout({
   children,
-}: Readonly<{
+}: {
   children: React.ReactNode;
-}>) {
+}) {
   return (
     <html lang="en">
       <body className={`bg-slate-900 ${inter.className}`}>
