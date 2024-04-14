@@ -1,6 +1,7 @@
 import { inter } from "@/configs/font";
 import { siteConfig } from "@/configs/site";
 import type { Metadata, Viewport } from "next";
+import PlausibleProvider from "next-plausible";
 import React from "react";
 import { Toaster } from "sonner";
 import { SmoothScrollProvider } from "../providers/smooth-scroll-provider";
@@ -61,17 +62,14 @@ export default function RootLayout({ children }: RootLayoutProps): JSX.Element {
   return (
     <html lang="en">
       <body className={`bg-slate-900 ${inter.className}`}>
-        <SmoothScrollProvider>
-          <CursorTracker />
-          {children}
-        </SmoothScrollProvider>
-        <Toaster />
+        <PlausibleProvider domain="ujenbasi.vercel.app">
+          <SmoothScrollProvider>
+            <CursorTracker />
+            {children}
+          </SmoothScrollProvider>
+          <Toaster />
+        </PlausibleProvider>
       </body>
-      <script
-        defer
-        data-domain="ujenbasi.vercel.app"
-        src="https://plausible.io/js/script.js"
-      ></script>
     </html>
   );
 }
