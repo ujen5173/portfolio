@@ -1,1 +1,1 @@
-The source code for my personal website https://ujenbasi.vercel.dev.
+The source code for my personal website https://ujenbasi.vercel.app.
