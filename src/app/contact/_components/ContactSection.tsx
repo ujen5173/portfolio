@@ -22,7 +22,7 @@ const ContactSection = () => {
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4">
             {Object.entries(contact).map(([key, value]) => (
-              <Link key={key} target="_blank" href={value}>
+              <Link key={key} target="_blank" href={value.href}>
                 <div className="icon-wrapper-container flex gap-4 items-center cursor-pointer">
                   <div className="icon-wrapper transition rounded-md border border-slate-600 p-4">
                     <span className="icon-wrapper-overlay"></span>

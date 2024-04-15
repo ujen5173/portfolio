@@ -8,7 +8,7 @@ export const projects = [
       "Next.js",
       "Tailwaind.css",
       "Drizzle-ORM",
-      "PRisma",
+      "Prisma",
       "TRPC",
       "Stripe",
       "Next.auth",
@@ -53,7 +53,7 @@ export const projects = [
     id: "4",
     title: "Portfolio",
     description: "My personal portfolio website.",
-    tech: ["Next.js", "Tailwaind.css", "Framer motion"],
+    tech: ["Next.js", "Tailwaind.css"],
     image: "/work/3.png",
     link: {
       github: "https://github.com/ujen5173/portfolio",

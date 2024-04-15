@@ -3,18 +3,18 @@ import { NavItem } from "@/app/_types";
 export const links = {
   social: {
     github: "https://github.com/ujen5173",
-    twitter: "https://twitter.com/ujen5173",
+    twitter: "https://twitter.com/ujen_basi",
     linkedin: "https://www.linkedin.com/in/ujen-basi-167a4522a",
   },
   mail: "ujenbasi1122@gmail.com",
-  openGraphImage: "https://saasyland.com/images/opengraph-image.png",
-  manifestFile: "https://saasyland.com/site.webmanifest",
+  openGraphImage: `https://ujenbasi.vercel.app/og-image.png`,
+  manifestFile: "https://ujenbasi.vercel.app/manifest.json",
 };
 
 export const contact = {
   github: {
     href: links.social.github,
-    username: "ujen5173",
+    username: "ujen_basi",
   },
   linkedin: {
     href: links.social.linkedin,
