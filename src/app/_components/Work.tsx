@@ -1,9 +1,9 @@
 import { Github } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
-import { projects } from "../_constants";
+import { projects, selectedProjects } from "../_constants";
 
-const Work = () => {
+const Work = ({ selected = false }: { selected?: boolean }) => {
   return (
     <section className="w-full">
       <div className="container mx-auto px-4 md:px-8 pt-12 pb-4 md:pb-24 md:py-36">
@@ -15,13 +15,13 @@ const Work = () => {
         </h1>
 
         <div className="">
-          {projects.map((project) => (
+          {(selected ? selectedProjects : projects).map((project) => (
             <div
               key={project.id}
               className="rounded-xl border custom-cursor-area border-slate-600/40 p-4 sm:p-8 md:p-12 mb-36 sticky top-28 left-0 bg-gray-900 z-[70]"
             >
               <div className="flex items-center justify-between gap-4">
-                <Link href={project.link.live}>
+                <Link target="_blank" href={project.link.live}>
                   <h1 className="text-xl md:text-2xl lg:text-3xl text-slate-50 font-semibold mb-4 md:mb-6">
                     {project.title}
                   </h1>

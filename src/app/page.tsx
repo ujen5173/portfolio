@@ -13,7 +13,7 @@ const Home = () => {
       <Info />
       <HeroSection />
       <TechStack />
-      <Work />
+      <Work selected={true} />
       <Contact />
       <Footer />
     </>

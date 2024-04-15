@@ -61,3 +61,5 @@ export const projects = [
     },
   },
 ];
+
+export const selectedProjects = projects.slice(0, 3);

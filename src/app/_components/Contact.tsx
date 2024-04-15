@@ -1,6 +1,7 @@
 "use client";
 
 import { links } from "@/configs/site";
+import Link from "next/link";
 import Balancer from "react-wrap-balancer";
 import { toast } from "sonner";
 
@@ -36,9 +37,11 @@ const Contact = () => {
         </Balancer>
 
         <div className="flex items-center gap-2 justify-center relative">
-          <button className="px-4 md:px-8 py-4 rounded-md transition border-sky-600 hover:bg-sky-600 border text-slate-50 text-base font-bold">
-            Say Hello!
-          </button>
+          <Link target="_blank" href={"https://cal.com/ujen51743/30min"}>
+            <button className="px-4 md:px-8 py-4 rounded-md transition border-sky-600 hover:bg-sky-600 border text-slate-50 text-base font-bold">
+              Say Hello!
+            </button>
+          </Link>
           <button
             onClick={handleCopyEmail}
             className="px-4 md:px-8 py-4 border transition hover:border-slate-600/40 border-transparent text-slate-50 rounded-md text-base font-bold hover:bg-slate-800"

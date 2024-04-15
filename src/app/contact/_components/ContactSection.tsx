@@ -1,3 +1,4 @@
+import CalSection from "@/app/_components/CalSection";
 import { contact } from "@/configs/site";
 import { Github, Linkedin, Mail, Twitter } from "lucide-react";
 import Link from "next/link";
@@ -46,6 +47,8 @@ const ContactSection = () => {
             ))}
           </div>
         </div>
+
+        <CalSection />
       </div>
     </section>
   );
