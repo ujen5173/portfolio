@@ -9,6 +9,7 @@ const CursorTracker = () => {
 
     const updateCursor = (e: MouseEvent | WheelEvent) => {
       const { clientX, clientY } = e;
+
       cursor.style.background = `radial-gradient(
         500px at ${clientX}px ${clientY}px,
         rgba(29, 78, 216, 0.15),

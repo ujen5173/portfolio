@@ -1,4 +1,4 @@
-import { inter } from "@/configs/font";
+import { spaceGrotesk } from "@/configs/font";
 import { siteConfig } from "@/configs/site";
 import type { Metadata, Viewport } from "next";
 import PlausibleProvider from "next-plausible";
@@ -55,13 +55,15 @@ export const metadata: Metadata = {
     icon: "/favicon.ico",
   },
 };
+
 interface RootLayoutProps {
   children: React.ReactNode;
 }
+
 export default function RootLayout({ children }: RootLayoutProps): JSX.Element {
   return (
     <html lang="en">
-      <body className={`bg-slate-900 ${inter.className}`}>
+      <body className={`bg-slate-900 ${spaceGrotesk.className}`}>
         <PlausibleProvider domain="ujenbasi.vercel.app">
           <SmoothScrollProvider>
             <CursorTracker />

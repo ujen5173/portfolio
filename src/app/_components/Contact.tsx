@@ -1,5 +1,6 @@
 "use client";
 
+import { merriweather } from "@/configs/font";
 import { links } from "@/configs/site";
 import Link from "next/link";
 import Balancer from "react-wrap-balancer";
@@ -22,10 +23,12 @@ const Contact = () => {
   return (
     <section className="w-full">
       <div className="flex flex-col items-center container mx-auto px-4 md:px-8 pt-12 pb-24 md:py-36">
-        <h1 className="text-center text-2xl font-semibold mb-8 text-slate-50">
+        <h1 className="text-center text-2xl font-semibold mb-4 text-slate-50">
           Contact
         </h1>
-        <h1 className="text-center text-4xl lg:text-6xl lg:leading-snug font-semibold mb-8 text-slate-50">
+        <h1
+          className={`text-center text-4xl lg:text-6xl lg:leading-snug font-semibold mb-8 text-slate-50 ${merriweather.className}`}
+        >
           Get In Touch
         </h1>
 

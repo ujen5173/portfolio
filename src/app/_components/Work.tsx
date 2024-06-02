@@ -1,3 +1,4 @@
+import { merriweather } from "@/configs/font";
 import { Github } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
@@ -10,7 +11,9 @@ const Work = ({ selected = false }: { selected?: boolean }) => {
         <h1 className="text-center text-2xl font-semibold mb-8 text-slate-50">
           Works
         </h1>
-        <h1 className="text-center text-4xl lg:text-6xl lg:leading-snug font-semibold mb-8 text-slate-50">
+        <h1
+          className={`text-center text-4xl lg:text-6xl lg:leading-snug font-semibold mb-8 text-slate-50 ${merriweather.className}`}
+        >
           Selected Projects
         </h1>
 
@@ -22,7 +25,9 @@ const Work = ({ selected = false }: { selected?: boolean }) => {
             >
               <div className="flex items-center justify-between gap-4">
                 <Link target="_blank" href={project.link.live}>
-                  <h1 className="text-xl md:text-2xl lg:text-3xl text-slate-50 font-semibold mb-4 md:mb-6">
+                  <h1
+                    className={`text-xl md:text-2xl lg:text-3xl text-slate-50 font-semibold mb-4 md:mb-6 ${merriweather.className}`}
+                  >
                     {project.title}
                   </h1>
                 </Link>
@@ -41,7 +46,7 @@ const Work = ({ selected = false }: { selected?: boolean }) => {
                 {project.tech.map((tech) => (
                   <span
                     key={tech}
-                    className="px-[10px] py-[5px] text-slate-300 rounded-md border border-slate-600/40 bg-slate-800 text-sm"
+                    className="px-[10px] py-[5px] text-slate-800 rounded-md border border-slate-300/40 bg-slate-100 font-semibold text-sm"
                   >
                     {tech}
                   </span>

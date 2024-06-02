@@ -3,7 +3,7 @@ import Footer from "./_components/Footer";
 import Header from "./_components/Header";
 import HeroSection from "./_components/HeroSection";
 import Info from "./_components/Info";
-import TechStack from "./_components/TechStack";
+import Skills from "./_components/Skills";
 import Work from "./_components/Work";
 
 const Home = () => {
@@ -12,7 +12,7 @@ const Home = () => {
       <Header />
       <Info />
       <HeroSection />
-      <TechStack />
+      <Skills />
       <Work selected={true} />
       <Contact />
       <Footer />

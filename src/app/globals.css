@@ -74,7 +74,7 @@
 
 .custom-cursor {
   background: radial-gradient(
-    600px at 0 0,
+    600px at 50% 50%,
     rgba(29, 78, 216, 0.15),
     transparent 80%
   );
