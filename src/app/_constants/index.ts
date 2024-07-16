@@ -33,20 +33,20 @@ export const projects = [
   },
   {
     id: "3",
-    title: "ShopMingle",
-    description: "An e-commerce website where users can buy and sell products.",
+    title: "ReadWonders",
+    description: "A dynamic community platform where creators can craft and share their stories, express their emotions, and connect with a supportive audience.",
     tech: [
       "Next.js",
       "Tailwaind.css",
-      "Drizzle-ORM",
+      "Prisma-ORM",
       "Shadcn-UI",
-      "Stripe",
-      "Next.auth",
+      "Supabase",
+      "Uploadthing",
     ],
-    image: "/work/2.png",
+    image: "/work/3.png",
     link: {
-      github: "https://github.com/ujen5173/shopmingle",
-      live: "https://shopmingle.vercel.app",
+      github: "https://github.com/ujen5173/readwonders",
+      live: "https://readwonders.vercel.app",
     },
   },
   {

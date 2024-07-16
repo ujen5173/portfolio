@@ -40,7 +40,12 @@ const AboutSection = () => {
                 Freelance
               </h2>
               <div className="flex items-center gap-2">
-                <div className="size-3 md:size-4 rounded-full bg-green-500"></div>
+                <div
+                style={{
+                  width: "15px",
+                  height: "15px",
+                }}
+                className="available-dot"></div>
                 <h1 className="text-xl md:text-2xl lg:text-3xl font-bold text-slate-50">
                   Available
                 </h1>

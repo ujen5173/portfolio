@@ -33,7 +33,7 @@ const Contact = () => {
         </h1>
 
         <Balancer>
-          <p className="text-slate-200 text-center text-2xl font-medium mb-16">
+          <p className="text-slate-200 text-center text-xl font-medium mb-16">
             I&apos;m open for freelance projects, feel free to email me to see
             how can we collaborate
           </p>
