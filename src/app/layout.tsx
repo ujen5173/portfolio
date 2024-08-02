@@ -1,10 +1,10 @@
 import { spaceGrotesk } from "@/configs/font";
 import { siteConfig } from "@/configs/site";
 import type { Metadata, Viewport } from "next";
-import PlausibleProvider from "next-plausible";
 import React from "react";
 import { Toaster } from "sonner";
 import { SmoothScrollProvider } from "../providers/smooth-scroll-provider";
+import { Analytics } from "./_components/Analytics";
 import CursorTracker from "./_components/CursorTracker";
 import "./globals.css";
 
@@ -64,13 +64,13 @@ export default function RootLayout({ children }: RootLayoutProps): JSX.Element {
   return (
     <html lang="en">
       <body className={`bg-slate-900 ${spaceGrotesk.className}`}>
-        <PlausibleProvider domain="ujenbasi.vercel.app">
+        <Analytics>
           <SmoothScrollProvider>
             <CursorTracker />
             {children}
           </SmoothScrollProvider>
           <Toaster />
-        </PlausibleProvider>
+        </Analytics>
       </body>
     </html>
   );
