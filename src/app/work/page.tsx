@@ -27,13 +27,13 @@ const WordDetails = () => {
           <h1 className="text-center text-4xl lg:text-6xl lg:leading-snug font-semibold mb-8 text-slate-50">
             Works
           </h1>
-          <Balancer>
-            <h3 className="text-center text-2xl font-semibold mb-32 text-slate-50">
+          <h3 className="text-center text-2xl font-semibold mb-32 text-slate-50">
+            <Balancer>
               I work with different teams to turn their vision into reality,
               their ideas into products, <br /> and their thoughts into
               experience.
-            </h3>
-          </Balancer>
+            </Balancer>
+          </h3>
         </div>
         <div>
           <WantHelp />

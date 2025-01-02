@@ -42,6 +42,12 @@ const Work = ({ selected = false }: { selected?: boolean }) => {
                 </Link>
               </div>
 
+              <div className="flex items-center mb-8">
+                <p className="text-slate-300 italic text-lg">
+                  {project.startedBuilding} - {project.onGoing ? "Present" : project.endingDate}
+                </p>
+              </div> 
+
               <div className="flex items-center gap-2 mb-8 flex-wrap">
                 {project.tech.map((tech) => (
                   <span
@@ -58,6 +64,17 @@ const Work = ({ selected = false }: { selected?: boolean }) => {
                   {project.description}
                 </p>
               </Link>
+
+              <div className="mb-10">
+                <h1 className="text-lg font-semibold text-slate-100">
+                  Why I build?
+                </h1>
+                <ul className="pl-5 list-disc list-inside text-slate-300 text-lg">
+                  {project.why_i_build.map((reason) => (
+                    <li key={reason}>{reason}</li>
+                  ))}
+                </ul>
+              </div>
 
               <Link href={project.link.live}>
                 <Image

@@ -1,4 +1,4 @@
-import { Merriweather, Space_Grotesk } from "next/font/google";
+import { Chelsea_Market, Merriweather, Space_Grotesk } from "next/font/google";
 import localFont from "next/font/local";
 
 export const merriweather = Merriweather({
@@ -14,4 +14,11 @@ export const spaceGrotesk = Space_Grotesk({
 export const handwritting = localFont({
   src: "../../public/font/handwritting.ttf",
   variable: "--font-handwritting",
+});
+
+
+export const marker = Chelsea_Market({
+  subsets: ["latin"],
+  weight: ["400"],
+
 });

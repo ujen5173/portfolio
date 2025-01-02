@@ -10,13 +10,13 @@ const AboutSection = () => {
             About me
           </h1>
 
-          <Balancer>
-            <h3 className="text-center text-xl lg:text-2xl font-medium mb-16 text-slate-200">
+          <h3 className="text-center text-xl lg:text-2xl font-medium mb-16 text-slate-200">
+            <Balancer>
               In the realm of full-stack development, I discover fulfillment in
               the delicate balance between form and function, sculpting digital
               experiences that seamlessly blend beauty and utility.
-            </h3>
-          </Balancer>
+            </Balancer>
+          </h3>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
             <div className="mb-4 md:mb-0">

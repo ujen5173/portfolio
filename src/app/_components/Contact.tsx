@@ -32,17 +32,17 @@ const Contact = () => {
           Get In Touch
         </h1>
 
-        <Balancer>
-          <p className="text-slate-200 text-center text-xl font-medium mb-16">
+        <p className="text-slate-200 text-center text-xl font-medium mb-16">
+          <Balancer>
             I&apos;m open for freelance projects, feel free to email me to see
             how can we collaborate
-          </p>
-        </Balancer>
+          </Balancer>
+        </p>
 
         <div className="flex items-center gap-2 justify-center relative">
           <Link target="_blank" href={"https://cal.com/ujen51743/30min"}>
             <button className="px-4 md:px-8 py-4 rounded-md transition border-sky-600 hover:bg-sky-600 border text-slate-50 text-base font-bold">
-              Say Hello!
+              Say Hi!
             </button>
           </Link>
           <button

@@ -31,7 +31,7 @@ export const contact = {
 };
 
 export const siteConfig = {
-  name: "Ujen basi",
+  name: "Ujen Basi",
   description:
     "I am a full-stack developer with a passion for creating beautiful and functional websites by utlizing Next.js, and Tailwind CSS.",
   url: "https://ujenbasi.vercel.app",
@@ -44,6 +44,7 @@ export const siteConfig = {
     "Front-end developer",
     "Back-end developer",
     "Full-stack developer",
+    "ujen5173",
     "Web developer",
   ],
   navItems: [
@@ -53,7 +54,7 @@ export const siteConfig = {
     {
       title: "Resume",
       isExternal: true,
-      href: "https://drive.google.com/file/d/1XqrKaLYpAV5kck1qEEOYlLBA8v9qZY8n/view?usp=sharing",
+      href: "https://drive.google.com/file/d/1I5tYTGkumyCZ4RiIkpNMTt97ldXhY84o/view?usp=sharing",
     },
   ] satisfies NavItem[],
 };
