@@ -24,15 +24,17 @@ const Work = ({ selected = false }: { selected?: boolean }) => {
               className="rounded-xl border custom-cursor-area border-slate-600/40 p-4 sm:p-8 md:p-12 mb-36 sticky top-28 left-0 bg-gray-900 z-[70]"
             >
               <div className="flex items-center justify-between gap-4">
-                <Link target="_blank" href={project.link.live}>
+                <Link target="_blank" href={project.link.live ?? "#"}>
                   <h1
                     className={`text-xl md:text-2xl lg:text-3xl text-slate-50 font-semibold mb-4 md:mb-6 ${merriweather.className}`}
                   >
                     {project.title}
                   </h1>
                 </Link>
+                {
+                  project.link.github && (
                 <Link
-                  href={project.link.github}
+                  href={project.link.github ?? "#"}
                   className="text-slate-300 text-lg"
                   target="_blank"
                 >
@@ -40,11 +42,13 @@ const Work = ({ selected = false }: { selected?: boolean }) => {
                     <Github size={20} stroke="white" />
                   </div>
                 </Link>
+                  )
+                }
               </div>
 
               <div className="flex items-center mb-8">
                 <p className="text-slate-300 italic text-lg">
-                  {project.startedBuilding} - {project.onGoing ? "Present" : project.endingDate}
+                  {project.startedBuilding} - {project.onGoing ? "Present" : project.onPause ? "Pause (will be working on future)" : project.endingDate}
                 </p>
               </div> 
 
@@ -59,7 +63,7 @@ const Work = ({ selected = false }: { selected?: boolean }) => {
                 ))}
               </div>
 
-              <Link href={project.link.live}>
+              <Link href={project.link.live ?? "#"}>
                 <p className="text-slate-300 text-lg mb-8">
                   {project.description}
                 </p>
@@ -76,7 +80,7 @@ const Work = ({ selected = false }: { selected?: boolean }) => {
                 </ul>
               </div>
 
-              <Link href={project.link.live}>
+              <Link href={project.link.live ?? "#"}>
                 <Image
                   src={project.image}
                   alt="work"

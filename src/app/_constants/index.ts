@@ -25,6 +25,7 @@ export const projects = [
     startedBuilding: "May 25, 2023",
     endingDate: "Apr 15, 2023",
     onGoing: false,
+    onPause: false,
   },
 
   {
@@ -49,16 +50,17 @@ export const projects = [
       github: "https://github.com/ujen5173/readwonders",
       live: "https://readwonders.vercel.app",
     },
-        startedBuilding: "May 20, 2023",
+    startedBuilding: "May 20, 2023",
     endingDate: null,
-    onGoing: true,
-  }, 
+    onGoing: false,
+    onPause: true,
+   }, 
       {
     id: "4",
     title: "Velocit - Vehicle Rental Platform",
     description: "A platform for  connecting users with rental shops to rent bikes, scooters, cars, and more based on location and duration.",
     why_i_build: [
-      "Found a problem in the market",
+      "Identified a Market Gap",
       "Build a production ready application",
       "Learn about the payment gateway",
       "Deep dive into all things"
@@ -71,15 +73,15 @@ export const projects = [
       "Nodemailer",
       "Drizzle orm",
       "Esewa Payment Integration",
-      "Uploadthing",
+      "Cloudinary",
       "Leaflet Map"
     ],
     image: "/work/5.png",
     link: {
-      github: "https://github.com/ujen5173/velocit",
-      live: "https://velocit.vercel.app",
+      github: null,
+      live: null,
     },
-    startedBuilding: "Nov 26, 2023",
+    startedBuilding: "Nov 26, 2024",
     endingDate: null,
     onGoing: true,
   },
@@ -100,7 +102,8 @@ export const projects = [
     }, 
     startedBuilding: "Nov 3, 2022",
     endingDate: "Dec 7, 2022",
-    onGoing: false, 
+    onGoing: false,
+    onPause: false,
   },
 ];
 
