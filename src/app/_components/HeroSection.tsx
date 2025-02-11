@@ -27,7 +27,7 @@ const HeroSection = () => {
           text="I'm a Full Stack Developer, building things for fun."
           className={`text-4xl lg:text-6xl w-9/12 2xl:w-8/12 mb-6 lg:leading-snug font-semibold text-slate-50 ${merriweather.className}`}
         />
- 
+
           <motion.span
             initial="hidden"
             className="text-xl lg:text-2xl text-slate-100"

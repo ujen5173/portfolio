@@ -1,4 +1,4 @@
-import { Chelsea_Market, Merriweather, Space_Grotesk } from "next/font/google";
+import { Chelsea_Market, Merriweather, Outfit, } from "next/font/google";
 import localFont from "next/font/local";
 
 export const merriweather = Merriweather({
@@ -6,7 +6,7 @@ export const merriweather = Merriweather({
   weight: ["300", "400", "700", "900"],
 });
 
-export const spaceGrotesk = Space_Grotesk({
+export const spaceGrotesk = Outfit({
   subsets: ["latin"],
   weight: ["300", "400", "700", "500", "600"],
 });

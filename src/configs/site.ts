@@ -14,7 +14,7 @@ export const links = {
 export const contact = {
   github: {
     href: links.social.github,
-    username: "ujen_basi",
+    username: "ujen5173",
   },
   linkedin: {
     href: links.social.linkedin,
@@ -22,10 +22,10 @@ export const contact = {
   },
   twitter: {
     href: links.social.twitter,
-    username: "ujen5173",
+    username: "ujen_basi",
   },
   mail: {
-    href: links.social.github,
+    href: `mailto:${links.mail}`,
     username: "ujenbasi1122@gmail.com",
   },
 };
@@ -54,7 +54,7 @@ export const siteConfig = {
     {
       title: "Resume",
       isExternal: true,
-      href: "https://drive.google.com/file/d/1I5tYTGkumyCZ4RiIkpNMTt97ldXhY84o/view?usp=sharing",
+      href: "https://drive.google.com/file/d/1hX_MLXNcAA1NYRFviLgeAzng-Nf2ESPH/view?usp=sharing",
     },
   ] satisfies NavItem[],
 };

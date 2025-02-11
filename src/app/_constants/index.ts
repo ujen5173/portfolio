@@ -54,7 +54,7 @@ export const projects = [
     endingDate: null,
     onGoing: false,
     onPause: true,
-   }, 
+  }, 
       {
     id: "4",
     title: "Velocit - Vehicle Rental Platform",
@@ -78,8 +78,8 @@ export const projects = [
     ],
     image: "/work/5.png",
     link: {
-      github: null,
-      live: null,
+      github: "https://github.com/ujen5173/velocit",
+      live: "https://www.velocit.me",
     },
     startedBuilding: "Nov 26, 2024",
     endingDate: null,
