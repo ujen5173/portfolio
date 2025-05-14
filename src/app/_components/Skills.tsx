@@ -71,6 +71,7 @@ const Skills = () => {
             "MongoDB",
             "Stripe",
             "Trpc",
+            "Esewa / Khalti",
           ].map((lang) => (
             <motion.div
               key={lang}

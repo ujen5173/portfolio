@@ -1,7 +1,6 @@
 "use client";
 import { merriweather } from "@/configs/font";
-import { motion, useAnimation } from "framer-motion";
-import Balancer from "react-wrap-balancer";
+import { motion } from "framer-motion";
 import { AnimatedElement } from "./AnimateElement";
 
 const defaultAnimations = {
@@ -15,9 +14,8 @@ const defaultAnimations = {
     },
   },
 };
-const HeroSection = () => {
-  const controls = useAnimation();
 
+const HeroSection = () => {
   return (
     <section className="w-full">
       <div className="container mx-auto px-4 md:px-8 pt-12 pb-24 md:py-36">
@@ -39,12 +37,11 @@ const HeroSection = () => {
           }}
           variants={defaultAnimations}
         >
-          <Balancer>
-            Full stack developer who enjoys building meaningful products with
-            clear goals. I love writing code and creating things that are both
-            useful and interesting. Frontend makes me smile❤️. Backend makes me
-            Google/GPT errors for hours. 😫
-          </Balancer>
+          Full stack developer who enjoys building meaningful products with
+          clear goals. I love writing code and creating things that are both
+          useful and interesting. Frontend makes me smile❤️. Backend makes me
+          Google/GPT errors for hours😫. My superpower? Knowing exactly what to
+          Google.
         </motion.span>
       </div>
     </section>

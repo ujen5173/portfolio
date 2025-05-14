@@ -1,5 +1,4 @@
 import WantHelp from "@/app/_components/WantHelp";
-import Balancer from "react-wrap-balancer";
 
 const AboutSection = () => {
   return (
@@ -10,12 +9,29 @@ const AboutSection = () => {
             About me
           </h1>
 
-          <h3 className="text-center text-xl lg:text-2xl font-medium mb-16 text-slate-200">
-            <Balancer>
-              In the realm of full-stack development, I discover fulfillment in
-              the delicate balance between form and function, sculpting digital
-              experiences that seamlessly blend beauty and utility.
-            </Balancer>
+          <h3 className="text-xl lg:text-2xl font-medium mb-16 text-slate-200">
+            I&apos;m a frontend developer with over two years of experience
+            building web applications. I focus on writing clear, efficient code
+            and designing interfaces that are easy to use. <br />
+            <br />
+            I&apos;ve worked on things like community platforms and scheduling
+            tools, always aiming to keep performance solid and the experience
+            smooth. I like figuring out how people use what I build and making
+            sure it works well for them.
+            <br />
+            <br />
+            Whether it&apos;s setting up a design system, managing app state, or
+            connecting the frontend to backend services, I try to keep things
+            simple and readable.
+            <br />
+            <br />
+            I&apos;m always learning, always building, and I care about doing
+            the work well.
+            <br />
+            <br />
+            <span className="text-blue-500/90 font-semibold italic">
+              — My goal: Build products that have a story to tell.
+            </span>
           </h3>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
@@ -24,7 +40,7 @@ const AboutSection = () => {
                 Experience
               </h2>
               <h1 className="text-xl md:text-2xl lg:text-3xl font-bold text-slate-50">
-                2 years
+                2+ years
               </h1>
             </div>
             <div className="mb-4 md:mb-0">
@@ -41,11 +57,12 @@ const AboutSection = () => {
               </h2>
               <div className="flex items-center gap-2">
                 <div
-                style={{
-                  width: "15px",
-                  height: "15px",
-                }}
-                className="available-dot"></div>
+                  style={{
+                    width: "15px",
+                    height: "15px",
+                  }}
+                  className="available-dot"
+                ></div>
                 <h1 className="text-xl md:text-2xl lg:text-3xl font-bold text-slate-50">
                   Available
                 </h1>
