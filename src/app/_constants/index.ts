@@ -1,13 +1,10 @@
 export const projects = [
-  
   {
     id: "1",
     title: "Developer Blogging Website (Hashnode)",
     description:
       "A developer blogging website where developers can write and share their thoughts and ideas. AI powered content generation system, custom build notion like editor and many more.",
-      why_i_build: [
-        "Just Loved the Hashnode UI",
-      ],
+    why_i_build: ["Just Loved the Hashnode UI"],
     tech: [
       "Next.js",
       "Tailwaind.css",
@@ -30,40 +27,49 @@ export const projects = [
 
   {
     id: "3",
-    title: "ReadWonders",
-    description: "A dynamic community platform where creators can craft and share their stories, express their emotions, and connect with a supportive audience.",
+    title: "[theReadora]",
+    description:
+      "Readora is a storytelling platform where users can read, write, and share stories across various genres. Best alternative to wattpad, webnovels, royalroads and other platforms.",
     why_i_build: [
-      "Alternative to Wattpad, cause their UI sucks",
-      "Getting Hands dirty with large content handling",
-      "Learn more about Next.js",
+      "Alternative to Wattpad, cause their UI/UX sucks",
+      "Understanding about handing large application",
+      "Multiple database handling",
+      "Build a improved platform that prioritizes user experience",
+      "Explore about AI content generation",
     ],
+    inspiration:
+      "The Readora: Taking a page from The Social Network, where it all begins.",
     tech: [
       "Next.js",
       "Tailwaind.css",
       "Prisma-ORM",
-      "Shadcn-UI",
+      "AI21 Studio",
       "Supabase",
       "Uploadthing",
+      "Stripe",
+      "Next.auth",
+      "...",
     ],
     image: "/work/3.png",
     link: {
-      github: "https://github.com/ujen5173/readwonders",
-      live: "https://readwonders.vercel.app",
+      github: "https://github.com/ujen5173/-theReadora-",
+      live: "https://thereadora.vercel.app",
     },
-    startedBuilding: "May 20, 2023",
+    startedBuilding: "Apr 15, 2025",
     endingDate: null,
-    onGoing: false,
-    onPause: true,
-  }, 
-      {
+    onGoing: true,
+    onPause: false,
+  },
+  {
     id: "4",
     title: "Velocit - Vehicle Rental Platform",
-    description: "A platform for  connecting users with rental shops to rent bikes, scooters, cars, and more based on location and duration.",
+    description:
+      "A platform for  connecting users with rental shops to rent bikes, scooters, cars, and more based on location and duration.",
     why_i_build: [
       "Identified a Market Gap",
       "Build a production ready application",
       "Learn about the payment gateway",
-      "Deep dive into all things"
+      "Deep dive into all things",
     ],
     tech: [
       "Next.js",
@@ -74,7 +80,7 @@ export const projects = [
       "Drizzle orm",
       "Esewa Payment Integration",
       "Cloudinary",
-      "Leaflet Map"
+      "Leaflet Map",
     ],
     image: "/work/5.png",
     link: {
@@ -90,16 +96,16 @@ export const projects = [
     title: "Hotel Booking Application (Airbnb)",
     description:
       "A hotel booking application where users can book hotels and manage their bookings. This application has a custom build calendar and amazing animations.",
-      why_i_build: [
-        "Gain Experience in building animations",
-        "Learn about the calendar system",
-      ],
+    why_i_build: [
+      "Gain Experience in building animations",
+      "Learn about the calendar system",
+    ],
     tech: ["Next.js", "Tailwaind.css", "Framer motion"],
     image: "/work/4.png",
     link: {
       github: "https://github.com/ujen5173/airbnb-clone",
       live: "https://airbnb-clone-zeta-drab.vercel.app/",
-    }, 
+    },
     startedBuilding: "Nov 3, 2022",
     endingDate: "Dec 7, 2022",
     onGoing: false,

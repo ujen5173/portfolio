@@ -33,7 +33,7 @@ const Header = () => {
               <li key={index} className="">
                 <Link
                   href={item.href}
-                  target={item.isExternal ? "_blank" : "_self"}
+                  target={item.isExternal ? "_blank" : "_top"}
                   className="px-2 py-2 text-slate-50 text-base hover:text-sky-600 list-item"
                 >
                   {item.title}

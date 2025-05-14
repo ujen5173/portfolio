@@ -28,24 +28,24 @@ const HeroSection = () => {
           className={`text-4xl lg:text-6xl w-9/12 2xl:w-8/12 mb-6 lg:leading-snug font-semibold text-slate-50 ${merriweather.className}`}
         />
 
-          <motion.span
-            initial="hidden"
-            className="text-xl lg:text-2xl text-slate-100"
-            animate={{
-              ...defaultAnimations.visible,
-              transition: {
-                delay: 0.6,
-              },
-            }}
-            variants={defaultAnimations}
-            >
+        <motion.span
+          initial="hidden"
+          className="text-xl lg:text-2xl text-slate-100"
+          animate={{
+            ...defaultAnimations.visible,
+            transition: {
+              delay: 0.6,
+            },
+          }}
+          variants={defaultAnimations}
+        >
           <Balancer>
-            With years of experience in Full Stack Development, I have honed my
-            skills in crafting responsive and scalable applications. I am
-            dedicated to delivering solutions that not only meet but exceed
-            client expectations.
+            Full stack developer who enjoys building meaningful products with
+            clear goals. I love writing code and creating things that are both
+            useful and interesting. Frontend makes me smile❤️. Backend makes me
+            Google/GPT errors for hours. 😫
           </Balancer>
-        </motion.span> 
+        </motion.span>
       </div>
     </section>
   );
