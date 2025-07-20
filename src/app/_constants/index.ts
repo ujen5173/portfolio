@@ -62,14 +62,15 @@ export const projects = [
   },
   {
     id: "4",
-    title: "Velocit - Vehicle Rental Platform",
+    title: "Ridezio - Vehicle Rental Platform",
     description:
-      "A platform for  connecting users with rental shops to rent bikes, scooters, cars, and more based on location and duration.",
+      "A platform for connecting users with rental shops to rent bikes, scooters, and more based on location and duration. Mobile version will be launching soon...",
     why_i_build: [
       "Identified a Market Gap",
       "Build a production ready application",
       "Learn about the payment gateway",
-      "Deep dive into all things",
+      "Users had no easy way to compare or book vehicles",
+      "Inspired by how Airbnb solved similar problems for homes",
     ],
     tech: [
       "Next.js",
@@ -81,6 +82,8 @@ export const projects = [
       "Esewa Payment Integration",
       "Cloudinary",
       "Leaflet Map",
+      "Expo",
+      "React-Native",
     ],
     image: "/work/5.png",
     link: {

@@ -22,7 +22,8 @@ const HeroSection = () => {
         <AnimatedElement
           el="h1"
           once={true}
-          text="I'm a Full Stack Developer, building things for fun."
+          // text="I'm a Full Stack Developer, building things for fun."
+          text="Building impactful, scalable apps with code, creativity, reliability."
           className={`text-4xl lg:text-6xl w-9/12 2xl:w-8/12 mb-6 lg:leading-snug font-semibold text-slate-50 ${merriweather.className}`}
         />
 
@@ -37,11 +38,9 @@ const HeroSection = () => {
           }}
           variants={defaultAnimations}
         >
-          Full stack developer who enjoys building meaningful products with
-          clear goals. I love writing code and creating things that are both
-          useful and interesting. Frontend makes me smile❤️. Backend makes me
-          Google/GPT errors for hours😫. My superpower? Knowing exactly what to
-          Google.
+          I&apos;m Ujen Basi from <u>Nepal</u>, a full stack developer who loves
+          building useful, meaningful things. Frontend makes me smile ❤️,
+          backend makes me Google 😫. My superpower? Knowing what to search.
         </motion.span>
       </div>
     </section>
