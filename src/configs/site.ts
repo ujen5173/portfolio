@@ -54,7 +54,7 @@ export const siteConfig = {
     {
       title: "Resume",
       isExternal: true,
-      href: "https://drive.google.com/file/d/1hX_MLXNcAA1NYRFviLgeAzng-Nf2ESPH/view?usp=sharing",
+      href: "https://drive.google.com/file/d/1T2ApT8FurVlKlY0mcC4oL47ikZI76pLB/view?usp=sharing",
     },
   ] satisfies NavItem[],
 };

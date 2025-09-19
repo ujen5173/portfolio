@@ -85,9 +85,11 @@ const MobileMenu = ({
         }`}
       >
         <header className="px-8 py-4 mb-8">
-          <h1 className="text-2xl font-bold font-font-handwritting text-slate-50">
-            ujen.dev
-          </h1>
+          <Link href="/">
+            <h2 className={`text-3xl text-slate-50 ${handwritting.className}`}>
+              {siteConfig.name}
+            </h2>
+          </Link>
 
           <button onClick={() => setShowMenu(false)}>
             <X size={24} stroke="white" className="absolute top-8 right-8" />
@@ -120,7 +122,7 @@ const MobileMenu = ({
           </li>
           <li className="">
             <Link
-              href="https://drive.google.com/file/d/1acNi9lkx6jusVEydVVV3a0WgBKL6eYY_/view?usp=sharing"
+              href={siteConfig.navItems[siteConfig.navItems.length - 1].href}
               target="_blank"
               className="px-2 py-2 text-slate-50 text-base hover:text-sky-600 flex items-center gap-2"
             >
