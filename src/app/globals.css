@@ -55,8 +55,8 @@
 
 .available-dot {
   display: block;
-  width: 7px;
-  height: 7px;
+  width: 9px;
+  height: 9px;
   border-radius: 100%;
   background: #16a34a;
   animation: animate-dot 1000ms infinite alternate-reverse;

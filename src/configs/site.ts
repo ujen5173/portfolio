@@ -3,8 +3,8 @@ import { NavItem } from "@/app/_types";
 export const links = {
   social: {
     github: "https://github.com/ujen5173",
+    linkedin: "https://www.linkedin.com/in/ujen5173",
     twitter: "https://twitter.com/ujen_basi",
-    linkedin: "https://www.linkedin.com/in/ujen-basi-167a4522a",
   },
   mail: "ujenbasi1122@gmail.com",
   openGraphImage: `https://ujenbasi.vercel.app/og-image.png`,
@@ -18,7 +18,7 @@ export const contact = {
   },
   linkedin: {
     href: links.social.linkedin,
-    username: "ujen-basi-167a4522a",
+    username: "ujen5173",
   },
   twitter: {
     href: links.social.twitter,

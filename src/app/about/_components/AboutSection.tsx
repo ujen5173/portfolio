@@ -85,8 +85,10 @@ const AboutSection = () => {
               <h1 className="text-xl text-slate-50">March 2020 - June 2020</h1>
             </div>
             <div className="mb-4 md:mb-0">
-              <h2 className="text-lg font-medium text-slate-300">Internship</h2>
-              <h1 className="text-xl text-slate-50">React.js Developer</h1>
+              <h2 className="text-lg font-medium text-slate-300">
+                Internship @NepaDristi
+              </h2>
+              <h1 className="text-xl text-slate-50">React.js Intern</h1>
             </div>
             <div className="mb-4 md:mb-0">
               <ul className="px-4 md:px-0 list-disc space-y-4">
@@ -111,7 +113,7 @@ const AboutSection = () => {
               <h1 className="text-xl text-slate-50">March 2022 - June 2026</h1>
             </div>
             <div className="mb-4 md:mb-0">
-              <h2 className="text-lg font-medium text-slate-300">
+              <h2 className="text-3xl mb-3 font-medium text-slate-300">
                 Kathford International College
               </h2>
               <h1 className="text-xl text-slate-50">
