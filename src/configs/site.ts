@@ -4,7 +4,6 @@ export const links = {
   social: {
     github: "https://github.com/ujen5173",
     linkedin: "https://www.linkedin.com/in/ujen5173",
-    twitter: "https://twitter.com/ujen_basi",
   },
   mail: "ujenbasi1122@gmail.com",
   openGraphImage: `https://ujenbasi.vercel.app/og-image.png`,
@@ -19,10 +18,6 @@ export const contact = {
   linkedin: {
     href: links.social.linkedin,
     username: "ujen5173",
-  },
-  twitter: {
-    href: links.social.twitter,
-    username: "ujen_basi",
   },
   mail: {
     href: `mailto:${links.mail}`,
@@ -54,7 +49,7 @@ export const siteConfig = {
     {
       title: "Resume",
       isExternal: true,
-      href: "https://drive.google.com/file/d/1T2ApT8FurVlKlY0mcC4oL47ikZI76pLB/view?usp=sharing",
+      href: "https://drive.google.com/file/d/1a754ui3moFLS7t78o7zrQ9tD-Hc8vWFI/view?usp=drive_link",
     },
   ] satisfies NavItem[],
 };
